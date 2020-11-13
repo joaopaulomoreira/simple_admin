@@ -16,5 +16,5 @@ const port = 3000
 app.use(adminBro.options.rootPath, router)
 
 app.listen(port, () => {
-  console.log(`Servidor executando http://localhost:${port}`)
+  console.log('Servidor executando')
 })
